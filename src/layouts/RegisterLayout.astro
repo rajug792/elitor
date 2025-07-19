@@ -1,0 +1,16 @@
+---
+const { title } = Astro.props;
+import Header from '../components/Header.astro';
+import RegisterForm from '../components/RegisterForm.astro';
+---
+
+<html lang="en">
+  <head>
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/theme.css" />
+  </head>
+  <body>
+    <RegisterForm />
+  </body>
+</html>
+```

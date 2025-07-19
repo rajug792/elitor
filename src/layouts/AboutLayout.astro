@@ -1,0 +1,18 @@
+---
+const { title } = Astro.props;
+import Header from '../components/Header.astro';
+import AboutContent from '../components/AboutContent.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<html lang="en">
+  <head>
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/theme.css" />
+  </head>
+  <body>
+    <Header />
+    <AboutContent />
+    <Footer />
+  </body>
+</html>

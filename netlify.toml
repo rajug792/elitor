@@ -1,0 +1,4 @@
+base = "elitor"
+publish = "dist"
+command = "npm run build"
+directory = "netlify/myfunctions"
